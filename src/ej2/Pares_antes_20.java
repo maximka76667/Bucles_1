@@ -1,7 +1,5 @@
 package ej2;
 
-import java.util.Scanner;
-
 public class Pares_antes_20 {
 
 	public static void main(String[] args) {
