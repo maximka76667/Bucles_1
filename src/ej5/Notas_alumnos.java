@@ -29,25 +29,25 @@ public class Notas_alumnos {
 			case 2:
 			case 3:
 			case 4:
-				System.out.println("Alumno numero " + i + " - Insuficiente");
+				System.out.println("Alumno numero" + i + " - Insuficiente" + " (" + notas[i] + ")");
 				break;
 				
 			case 5:
-				System.out.println("Alumno numero " + i + " - Suficiente");
+				System.out.println("Alumno numero" + i + " - Suficiente" + " (" + notas[i] + ")");
 				break;
 				
 			case 6:
-				System.out.println("Alumno numero " + i + " - Bien");
+				System.out.println("Alumno numero" + i + " - Bien" + " (" + notas[i] + ")");
 				break;
 				
 			case 7:
 			case 8:
-				System.out.println("Alumno numero " + i + " - Notable");
+				System.out.println("Alumno numero" + i + " - Notable" + " (" + notas[i] + ")");
 				break;
 				
 			case 9:
 			case 10:
-				System.out.println("Alumno numero " + i + " - Sobresaliente");
+				System.out.println("Alumno numero" + i + " - Sobresaliente" + " (" + notas[i] + ")");
 				break;
 	
 			default:
