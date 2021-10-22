@@ -10,10 +10,10 @@ public class Menu {
 		boolean esSalir = false;
 
 		while(!esSalir) {
-			System.out.println("Selecciona una opción: ");
+			System.out.println("Selecciona una opciï¿½n: ");
 			System.out.println("1. Producto (p)");
 			System.out.println("2. Resta (r)");
-			System.out.println("3. División (d)");
+			System.out.println("3. Divisiï¿½n (d)");
 			System.out.println("4. Salir (s)");
 
 			char accion = entrada.nextLine().charAt(0);
@@ -43,7 +43,7 @@ public class Menu {
 				a = entrada.nextInt();
 				System.out.print("b: ");
 				b = entrada.nextInt();
-				System.out.println("División: " + (a / b));
+				System.out.println("Divisiï¿½n: " + (a / b));
 				break;
 
 			case 's':
